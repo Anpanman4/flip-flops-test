@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .header__title {
+    margin: 0;
+    padding: 11px 0 10px;
+    background-color: var(--orange-color);
+    font-family: var(--gotham-font);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--black-color);
+  }
+
+  .header__logo {
+    height: 31px;
+    background: no-repeat center url(../../../images/cushion.svg);
+  }
+
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--peach-color);
+    margin: 0;
+    padding: 19px 0;
+
+    .header__subtitle {
+      font-family: var(--gotham-font);
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 13px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: var(--black-color);
+      margin: 10px 0 0;
+      padding: 0;
+    }
+  }
+}

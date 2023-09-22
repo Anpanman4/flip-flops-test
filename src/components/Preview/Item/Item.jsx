@@ -56,7 +56,7 @@ const Item = () => {
         <p className="item__text">best selling</p>
       </div>
       <h2 className="item__title">ORTHOPEDIC SLIPPERS</h2>
-      <img src={images[currentItem].src} alt="Шлепки" />
+      <img className="item__image-container" src={images[currentItem].src} alt="Шлепки" />
       <div className="item__boots-container">
         {images.map(image => {
           return (
